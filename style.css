@@ -1,0 +1,246 @@
+.tree1 {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 200px 200px 200px;
+  border-color: transparent transparent #156b0d transparent;
+  line-height: 0px;
+  _border-color: #000000 #000000 #156b0d #000000;
+}
+
+.tree2 {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 200px 200px 200px;
+  border-color: transparent transparent #156b0d transparent;
+  line-height: 0px;
+  _border-color: #000000 #000000 #156b0d #000000;
+}
+
+.tree3 {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 200px 200px 200px;
+  border-color: transparent transparent #156b0d transparent;
+  line-height: 0px;
+  _border-color: #000000 #000000 #156b0d #000000;
+}
+.star {
+  position:absolute;
+  top:2%;
+  left:50%;
+}
+#star {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+	position: relative;
+}
+#star:after {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid red;
+	position: absolute;
+	content: "";
+	top: 30px;
+	left: -50px;
+}
+
+.bauble-red {
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: red;
+  border-radius: 50%;
+}
+
+#b-r-1 {
+  position: absolute;
+  top: 49%;
+  left: 23%;
+  hover: white;
+}
+
+#b-r-2 {
+  position: absolute;
+  top: 32%;
+  left: 68%;
+}
+
+#b-w-1 {
+  position: absolute;
+  top: 49%;
+  left: 89%;
+}
+
+#b-w-2 {
+  position: absolute;
+  top: 40%;
+  left: 42%;
+}
+
+#b-r-3 {
+  position: absolute;
+  top: 60%;
+  left: 41%;
+  hover: white;
+}
+
+#b-r-4 {
+  position: absolute;
+  top: 65%;
+  left: 88%;
+}
+
+#b-w-3 {
+  position: absolute;
+  top: 67%;
+  left: 24%;
+}
+
+#b-w-4 {
+  position: absolute;
+  top: 50%;
+  left: 54%;
+}
+
+#b-r-5 {
+  position: absolute;
+  top: 87%;
+  left: 23%;
+  hover: white;
+}
+
+#b-r-6 {
+  position: absolute;
+  top: 75%;
+  left: 59%;
+}
+
+#b-w-5 {
+  position: absolute;
+  top: 87%;
+  left: 89%;
+}
+
+#b-w-6 {
+  position: absolute;
+  top: 80%;
+  left: 49%;
+}
+
+#b-y-1 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  hover: white;
+}
+
+#b-y-2 {
+  position: absolute;
+  top: 43%;
+  left: 74%;
+}
+
+#b-y-3 {
+  position: absolute;
+  top: 58%;
+  left: 34%;
+}
+
+#b-y-4 {
+  position: absolute;
+  top: 61%;
+  left: 69%;
+  transition: background-color 2s ease-out;
+}
+
+
+#b-y-5 {
+  position: absolute;
+  top: 64%;
+  left: 53%;
+}
+
+#b-y-6 {
+  position: absolute;
+  top: 81%;
+  left: 41%;
+}
+.bauble-yellow:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.bauble-white:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+.bauble-red:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.bauble-white {
+  width: 30px;
+  height: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.bauble-yellow {
+  width: 25px;
+  height: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.trunk {
+  position: absolute;
+  top: 88%;
+  left: 55%;
+  width: 40px;
+  height: 120px;
+  background-color: #4d3805;
+}
+
+.pot {
+  position: absolute;
+  top: 100%;
+  left: 45.5%;
+  width: 154px;
+  height: 120px;
+  background: red;
+  background: linear-gradient(to right, red, blue);
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  background: none;
+  margin-top: 8%;
+  width: 600px;
+  height: 600px;
+}

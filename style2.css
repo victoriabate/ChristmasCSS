@@ -1,7 +1,5 @@
-.tree1 {
+.tree {
   position: absolute;
-  top: 16.5%;
-  left: 25%;
   width: 0;
   height: 0;
   border-style: solid;
@@ -9,33 +7,26 @@
   border-color: transparent transparent #156b0d transparent;
   line-height: 0px;
   _border-color: #000000 #000000 #156b0d #000000;
+}
+
+.tree1 {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
 }
 
 .tree2 {
   position: absolute;
   top: 35%;
   left: 25%;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 200px 200px 200px;
-  border-color: transparent transparent #156b0d transparent;
-  line-height: 0px;
-  _border-color: #000000 #000000 #156b0d #000000;
 }
 
 .tree3 {
   position: absolute;
   top: 55%;
   left: 25%;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 200px 200px 200px;
-  border-color: transparent transparent #156b0d transparent;
-  line-height: 0px;
-  _border-color: #000000 #000000 #156b0d #000000;
 }
+
 .star {
   position:absolute;
   top:2%;
@@ -48,6 +39,7 @@
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid red;
 	position: relative;
+  z-index: 1;
 }
 #star:after {
 	width: 0;
@@ -59,7 +51,9 @@
 	content: "";
 	top: 30px;
 	left: -50px;
+  z-index: 1;
 }
+
 
 
 /* Safari 4.0 - 8.0 */
@@ -78,6 +72,106 @@
     100% {background-color: green;}
 }
 
+.light {
+  width: 3px;
+  height: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color:red;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+#l1 {
+  position: absolute;
+  top: 41px;
+  left: 34px;
+  animation-delay: 2s;
+}
+#l2 {
+  position: absolute;
+  top: 83px;
+  left: 10px;
+  animation-delay: 1s;
+}#l3{
+  position: absolute;
+  top: 60px;
+  left: -29px;
+  animation-delay: 1s;
+}#l4 {
+  position: absolute;
+  top: 115px;
+  left: -3px;
+  animation-delay: 2s;
+}#l5 {
+  position: absolute;
+  top: 11px;
+  left: -4px;
+  animation-delay: 1s;
+  /*need to alter position of rest and add more*/
+}#l6 {
+  position: absolute;
+  top: 83px;
+  left: 10px;
+  animation-delay: 1s;
+}#l7 {
+  position: absolute;
+  top: 83px;
+  left: 10px;
+  animation-delay: 1s;
+}#l8 {
+  position: absolute;
+  top: 83px;
+  left: 10px;
+  animation-delay: 1s;
+}#l9 {
+  position: absolute;
+  top: 83px;
+  left: 10px;
+  animation-delay: 1s;
+}#l10 {
+  position: absolute;
+  top: 83px;
+  left: 10px;
+  animation-delay: 1s;
+}#l11{
+  position: absolute;
+  top: 83px;
+  left: 10px;
+  animation-delay: 1s;
+}#l12 {
+  position: absolute;
+  top: 83px;
+  left: 10px;
+  animation-delay: 1s;
+}
+.light {
+    animation-name: light-twinkle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes light-twinkle {
+    0%   {background-color:white}
+    25%  {background-color:red}
+    50%  {background-color:white}
+    75%  {background-color:red }
+    100% {background-color:white}
+  }
+.bauble {
+
+    animation-name: bauble-twinkle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes bauble-twinkle {
+    0%   {background-color:red}
+    25%  {background-color:white}
+    50%  {background-color:red}
+    75%  {background-color:white}
+    100% {background-color:red}
+}
+
 .bauble-red {
   width: 40px;
   height: 40px;
@@ -86,6 +180,7 @@
   border-color: black;
   background-color: red;
   border-radius: 50%;
+  animation-delay: 2s;
 }
 
 #b-r-1 {
@@ -200,6 +295,7 @@
   left: 41%;
 }
 
+
 .bauble {
   -webkit-animation-name: flash-lights; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
@@ -208,6 +304,7 @@
   -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
   animation-iteration-count: 3;
 }
+
 
 .bauble-white {
   width: 30px;
